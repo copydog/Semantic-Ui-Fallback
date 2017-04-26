@@ -1,13 +1,19 @@
 # Semantic UI Fallback
 Enable Semantic Ui IE8+ Support
+
 ## Why?
 22% people in china are using ie8 or ie9. (April 26, 2017)
-## Todo List
+## Todo List (This Week)
 Updated on April,26, 2017
 
 - [ ] Grid/Row
 - [ ] Button
 - [ ] Container
+- [ ] other
+
+## Issues
+If you find out a finished component is not working properly,
+fire an issue, PLEASE describe it clearly, i will fix it ASAP. 
 ## Goals
 
 #### main goal
