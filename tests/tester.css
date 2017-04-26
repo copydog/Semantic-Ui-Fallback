@@ -1,0 +1,37 @@
+.bg-red {
+	background-color: red;/* fallback */
+	background-color: palevioletred;
+}
+
+.bg-yellow {
+	background-color: yellow;
+}
+
+.bg-blue {
+	background-color: blue;/* fallback */
+	background-color: deepskyblue;
+}
+
+.bg-green {
+	background-color: green;/* fallback */
+	background-color: mediumseagreen;
+}
+
+.fc-red {
+	color: red;/* fallback */
+	color: palevioletred;
+}
+
+.fc-yellow {
+	color: yellow;
+}
+
+.fc-blue {
+	color: blue;/* fallback */
+	color: deepskyblue;
+}
+
+.fc-green {
+	color: green;/* fallback */
+	color: mediumseagreen;
+}
