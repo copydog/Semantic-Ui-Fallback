@@ -1,6 +1,5 @@
 //******************** core ********************
 .ui.grid.grid, .row {
-
 	display: block;
 	position: relative;
 	overflow: hidden;
@@ -21,6 +20,7 @@
 
 //******************** x-wide column ********************
 .ui.grid .column.wide {
+	width: 1 / $columnNumber * 100% !important;
 	&.two {
 		width: 2 / $columnNumber * 100% !important;
 	}
