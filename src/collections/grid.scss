@@ -18,8 +18,16 @@
 
 //******************** divided column ********************
 // ranking: 4-6
+.ui.grid {
+	.column {
+		float: left !important;
+	}
+	.row.column {
+		float: none !important;
+	}
+}
 .column.grid, .column.row {
-	
+
 	&.one {
 		> .column {
 			width: 1/1 * 100% !important;

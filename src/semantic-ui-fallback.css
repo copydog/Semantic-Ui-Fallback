@@ -1,3 +1,8 @@
+.ui.grid .column {
+  float: left !important; }
+.ui.grid .row.column {
+  float: none !important; }
+
 .column.grid.one > .column, .column.row.one > .column {
   width: 100% !important; }
 .column.grid.two > .column, .column.row.two > .column {
