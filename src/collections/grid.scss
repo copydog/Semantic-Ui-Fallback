@@ -1,23 +1,32 @@
 //******************** core ********************
-.ui.grid, .row {
+.ui.grid.grid, .row {
+
 	display: block;
 	position: relative;
 	overflow: hidden;
 	.column {
 		float: left !important;
+		padding: $emSize * 1;
 	}
-	.row.column {
+	.row.column, .grid.column {
 		float: none !important;
 	}
+
+
+}
+
+.ui.grid.grid.grid.grid.grid.grid.grid {
+	margin: $emSize * -1;
+	padding: 0;
 }
 
 //******************** clearfix ********************
-.ui.grid, .row {
-	&:before, &:after {
-		content: ' ';
-		display: table;
-	}
-}
+//.ui.grid, .row {
+//	&:before, &:after {
+//		content: ' ';
+//		display: table;
+//	}
+//}
 
 //******************** x-wide column ********************
 

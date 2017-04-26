@@ -1,15 +1,16 @@
-.ui.grid, .row {
+.ui.grid.grid, .row {
   display: block;
   position: relative;
   overflow: hidden; }
-  .ui.grid .column, .row .column {
-    float: left !important; }
-  .ui.grid .row.column, .row .row.column {
+  .ui.grid.grid .column, .row .column {
+    float: left !important;
+    padding: 14px; }
+  .ui.grid.grid .row.column, .ui.grid.grid .grid.column, .row .row.column, .row .grid.column {
     float: none !important; }
 
-.ui.grid:before, .ui.grid:after, .row:before, .row:after {
-  content: ' ';
-  display: table; }
+.ui.grid.grid.grid.grid.grid.grid.grid {
+  margin: -14px;
+  padding: 0; }
 
 .column.grid.one > .column, .column.row.one > .column {
   width: 100% !important; }
