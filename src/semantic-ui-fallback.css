@@ -1,6 +1,9 @@
-.ui.grid .column {
+.ui.grid.grid {
+  display: block; }
+
+.ui.grid .column, .row .column {
   float: left !important; }
-.ui.grid .row.column {
+.ui.grid .row.column, .row .row.column {
   float: none !important; }
 
 .column.grid.one > .column, .column.row.one > .column {

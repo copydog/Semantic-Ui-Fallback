@@ -18,7 +18,10 @@
 
 //******************** divided column ********************
 // ranking: 4-6
-.ui.grid {
+.ui.grid.grid {
+	display: block;
+}
+.ui.grid, .row {
 	.column {
 		float: left !important;
 	}
