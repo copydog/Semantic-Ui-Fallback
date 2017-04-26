@@ -12,7 +12,6 @@
 		float: none !important;
 	}
 
-
 }
 
 .ui.grid.grid.grid.grid.grid.grid.grid {
@@ -20,19 +19,70 @@
 	padding: 0;
 }
 
-//******************** clearfix ********************
-//.ui.grid, .row {
-//	&:before, &:after {
-//		content: ' ';
-//		display: table;
-//	}
-//}
-
 //******************** x-wide column ********************
+.grid .column.wide {
+	&.two {
+		width: 2 / $columnNumber * 100%;
+	}
 
+	&.three {
+		width: 3 / $columnNumber * 100%;
+	}
+
+	&.four {
+		width: 4 / $columnNumber * 100%;
+	}
+
+	&.five {
+		width: 5 / $columnNumber * 100%;
+	}
+
+	&.six {
+		width: 6 / $columnNumber * 100%;
+	}
+
+	&.seven {
+		width: 7 / $columnNumber * 100%;
+	}
+
+	&.eight {
+		width: 8 / $columnNumber * 100%;
+	}
+
+	&.nine {
+		width: 9 / $columnNumber * 100%;
+	}
+
+	&.ten {
+		width: 10 / $columnNumber * 100%;
+	}
+
+	&.eleven {
+		width: 11 / $columnNumber * 100%;
+	}
+
+	&.twelve {
+		width: 12 / $columnNumber * 100%;
+	}
+
+	&.thirteen {
+		width: 13 / $columnNumber * 100%;
+	}
+
+	&.fourteen {
+		width: 14 / $columnNumber * 100%;
+	}
+
+	&.fifteen {
+		width: 15 / $columnNumber * 100%;
+	}
+
+	&.sixteen {
+		width: 16 / $columnNumber * 100%;
+	}
+}
 
 //******************** divided column ********************
-
 
 .column.grid, .column.row {
 
