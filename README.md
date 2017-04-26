@@ -10,11 +10,11 @@ Updated on April,26, 2017
 - [ ] Container
 ## Goals
 
-#### main Goal
+#### main goal
 Enable Semantic UI Usable on IE8+
-#### secondary Goal
+#### secondary goal
 Enable Semantic UI Looks Like Latest Browser on IE8+
-#### optional/considering Goal
+#### optional/considering goal
 Enable Semantic UI support IE6+
 #### explain
 Usable means ie8+ browsers can render the html properly
