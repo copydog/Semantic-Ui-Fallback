@@ -6,8 +6,8 @@ Enable Semantic Ui IE6+ Support
 Updated on April,26, 2017
 
 - [x]Grid/Row
-- []Button
-- []Container
+- [ ]Button
+- [ ]Container
 ## Goals
 
 #### main Goal
