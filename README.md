@@ -13,7 +13,7 @@ Updated on April,26, 2017
 #### main Goal
 Enable Semantic UI Usable on IE8+
 #### secondary Goal
-Enable Semantic UI 
+Enable Semantic UI Looks Like Latest Browser on IE8+
 #### optional Goal
 Enable Semantic UI support IE6+
 #### explain
