@@ -9,7 +9,7 @@ function loadEqualWidthGrid() {
 
     // using css to fix (1-16 range)
     if (count > 0 && count <= 16) {
-        el.addClass(number[count]+' column').addClass();
+        el.addClass(number[count]+' column').removeClass('equal');
     }
     // using js calculation to fix
     else {
