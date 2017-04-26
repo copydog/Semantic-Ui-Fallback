@@ -1,10 +1,15 @@
-.ui.grid {
-  display: block; }
+.ui.grid, .row {
+  display: block;
+  position: relative;
+  overflow: hidden; }
+  .ui.grid .column, .row .column {
+    float: left !important; }
+  .ui.grid .row.column, .row .row.column {
+    float: none !important; }
 
-.ui.grid .column, .row .column {
-  float: left !important; }
-.ui.grid .row.column, .row .row.column {
-  float: none !important; }
+.ui.grid:before, .ui.grid:after, .row:before, .row:after {
+  content: ' ';
+  display: table; }
 
 .column.grid.one > .column, .column.row.one > .column {
   width: 100% !important; }

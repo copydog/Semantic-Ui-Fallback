@@ -1,28 +1,8 @@
-//******************** transform ********************
-// hack used
-//@media only screen and (max-width: $tabletBreakpoint) {
-//	.stackable.stackable.stackable.stackable {
-//		>.column {
-//			width: 100%;
-//		}
-//	}
-//}
-//
-//@media only screen and (min-width: $tabletBreakpoint) and (max-width: $computerBreakpoint) {
-//	.doubling.doubling.doubling.doubling {
-//		>.column {
-//			width: 50%;
-//		}
-//	}
-//}
-
-//******************** divided column ********************
-// ranking: 4-6
-.ui.grid {
-	display: block;
-}
-
+//******************** core ********************
 .ui.grid, .row {
+	display: block;
+	position: relative;
+	overflow: hidden;
 	.column {
 		float: left !important;
 	}
@@ -30,6 +10,21 @@
 		float: none !important;
 	}
 }
+
+//******************** clearfix ********************
+.ui.grid, .row {
+	&:before, &:after {
+		content: ' ';
+		display: table;
+	}
+}
+
+//******************** x-wide column ********************
+
+
+//******************** divided column ********************
+
+
 .column.grid, .column.row {
 
 	&.one {
