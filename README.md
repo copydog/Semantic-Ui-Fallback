@@ -5,9 +5,9 @@ Enable Semantic Ui IE6+ Support
 ## Todo List
 Updated on April,26, 2017
 
-- [x]Grid/Row
-- [ ]Button
-- [ ]Container
+- [x] Grid/Row
+- [ ] Button
+- [ ] Container
 ## Goals
 
 #### main Goal
