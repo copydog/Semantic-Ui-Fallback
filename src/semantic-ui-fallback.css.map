@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAuBE,qDAAU;EACT,KAAK,EAAE,eAAqB;AAK7B,qDAAU;EACT,KAAK,EAAE,cAAqB;AAK7B,yDAAU;EACT,KAAK,EAAE,oBAAqB;AAK7B,uDAAU;EACT,KAAK,EAAE,cAAqB;AAK7B,uDAAU;EACT,KAAK,EAAE,cAAqB;AAK7B,qDAAU;EACT,KAAK,EAAE,oBAAqB;AAK7B,yDAAU;EACT,KAAK,EAAE,oBAAqB;AAK7B,yDAAU;EACT,KAAK,EAAE,gBAAqB",
+"sources": ["collections/grid.scss"],
+"names": [],
+"file": "semantic-ui-fallback.css"
+}

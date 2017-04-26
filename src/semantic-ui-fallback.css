@@ -1,0 +1,18 @@
+.column.grid.one > .column, .column.row.one > .column {
+  width: 100% !important; }
+.column.grid.two > .column, .column.row.two > .column {
+  width: 50% !important; }
+.column.grid.three > .column, .column.row.three > .column {
+  width: 33.33333% !important; }
+.column.grid.four > .column, .column.row.four > .column {
+  width: 25% !important; }
+.column.grid.five > .column, .column.row.five > .column {
+  width: 20% !important; }
+.column.grid.six > .column, .column.row.six > .column {
+  width: 16.66667% !important; }
+.column.grid.seven > .column, .column.row.seven > .column {
+  width: 14.28571% !important; }
+.column.grid.eight > .column, .column.row.eight > .column {
+  width: 12.5% !important; }
+
+/*# sourceMappingURL=semantic-ui-fallback.css.map */
