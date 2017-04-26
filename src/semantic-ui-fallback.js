@@ -1,2 +1,3 @@
 //******************** fix equal width grid ********************
-// $('.ui.equal.width.grid')
+var el = $('.ui.equal.width.grid');
+var count = el.length;

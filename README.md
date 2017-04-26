@@ -1,5 +1,5 @@
 # Semantic UI Fallback
-Enable Semantic Ui IE6+ Support
+Enable Semantic Ui IE8+ Support
 ## Why?
 22% people in china are using ie8 or ie9. (April 26, 2017)
 ## Todo List
@@ -14,7 +14,7 @@ Updated on April,26, 2017
 Enable Semantic UI Usable on IE8+
 #### secondary Goal
 Enable Semantic UI Looks Like Latest Browser on IE8+
-#### optional Goal
+#### optional/considering Goal
 Enable Semantic UI support IE6+
 #### explain
 Usable means ie8+ browsers can render the html properly
