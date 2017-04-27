@@ -12,6 +12,13 @@
   margin: -14px;
   padding: 0; }
 
+.ui.grid.grid.grid.grid.grid.grid.grid.celled {
+  margin: 0; }
+
+.ui.grid:before, .ui.grid:after, .row:before, .row:after {
+  display: table;
+  content: " "; }
+
 .ui.grid .column.wide {
   width: 6.25% !important; }
   .ui.grid .column.wide.two {
