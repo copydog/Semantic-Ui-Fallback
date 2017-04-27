@@ -13,6 +13,32 @@
 
 }
 
+.ui.centered.grid.grid {
+	>.column {
+		margin: 0 auto;
+	}
+}
+
+.ui.celled.grid.grid {
+	.column {
+		box-shadow: none;
+		border: none;
+		border-left: 1px solid #d4d4d5;
+		&:first-child {
+			border: none;
+		}
+	}
+	.row {
+		box-shadow: none;
+		border: none;
+		border-top: 1px solid #d4d4d5;
+		&:first-child {
+			border: none;
+		}
+	}
+
+}
+
 
 .ui.grid.grid.grid.grid.grid.grid.grid {
 	margin: $emSize * -1;

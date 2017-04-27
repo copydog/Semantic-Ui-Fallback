@@ -8,6 +8,22 @@
   .ui.grid.grid .row.column, .ui.grid.grid .grid.column, .row .row.column, .row .grid.column {
     float: none !important; }
 
+.ui.centered.grid.grid > .column {
+  margin: 0 auto; }
+
+.ui.celled.grid.grid .column {
+  box-shadow: none;
+  border: none;
+  border-left: 1px solid #d4d4d5; }
+  .ui.celled.grid.grid .column:first-child {
+    border: none; }
+.ui.celled.grid.grid .row {
+  box-shadow: none;
+  border: none;
+  border-top: 1px solid #d4d4d5; }
+  .ui.celled.grid.grid .row:first-child {
+    border: none; }
+
 .ui.grid.grid.grid.grid.grid.grid.grid {
   margin: -14px;
   padding: 0; }
