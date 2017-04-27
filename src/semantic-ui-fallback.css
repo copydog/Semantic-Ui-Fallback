@@ -3,7 +3,8 @@
   position: relative;
   overflow: hidden; }
   .ui.grid.grid .column, .row .column {
-    float: left !important; }
+    float: left !important;
+    padding: 14px; }
   .ui.grid.grid .row.column, .ui.grid.grid .grid.column, .row .row.column, .row .grid.column {
     float: none !important; }
 

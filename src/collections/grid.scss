@@ -5,7 +5,7 @@
 	overflow: hidden;
 	.column {
 		float: left !important;
-		//padding: $emSize * 1;
+		padding: $emSize * 1;
 	}
 	.row.column, .grid.column {
 		float: none !important;
