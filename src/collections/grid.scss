@@ -5,7 +5,7 @@
 	overflow: hidden;
 	.column {
 		float: left !important;
-		padding: $emSize * 1;
+		//padding: $emSize * 1;
 	}
 	.row.column, .grid.column {
 		float: none !important;
@@ -14,12 +14,19 @@
 }
 
 .ui.centered.grid.grid {
-	>.column {
+	> .column {
 		margin: 0 auto;
 	}
 }
 
-.ui.celled.grid.grid {
+.ui.grid.grid.grid.grid.grid.grid.grid {
+	margin: $emSize * -1;
+	padding: 0;
+}
+
+//******************** variation ********************
+// internal celled
+.ui.internally.celled.grid.grid {
 	.column {
 		box-shadow: none;
 		border: none;
@@ -39,14 +46,37 @@
 
 }
 
-
-.ui.grid.grid.grid.grid.grid.grid.grid {
-	margin: $emSize * -1;
-	padding: 0;
-}
+// celled
 .ui.grid.grid.grid.grid.grid.grid.grid.celled {
 	margin: 0;
 }
+
+//.ui.celled.grid.grid {
+//	.column {
+//		box-shadow: none;
+//		border: none;
+//		border-right: 1px solid #d4d4d5;
+//		border-bottom: 1px solid #d4d4d5;
+//		&:first-child {
+//			border: none;
+//		}
+//	}
+//	.row {
+//		box-shadow: none;
+//		border: none;
+//		border-top: 1px solid #d4d4d5;
+//		&:first-child {
+//			border: none;
+//		}
+//	}
+//
+//}
+
+// floated
+.ui.grid > [class*="right floated"].column.column {
+	float: right !important;
+}
+
 //******************** clearfix ********************
 .ui.grid, .row {
 	&:before, &:after {
