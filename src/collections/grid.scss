@@ -1,6 +1,6 @@
 //******************** core ********************
 .ui.grid.grid, .row {
-	display: block;
+	display: block !important;
 	position: relative;
 	overflow: hidden;
 	.column {
@@ -9,6 +9,7 @@
 	}
 	.row.column, .grid.column {
 		float: none !important;
+		//margin: $emSize * -1;
 	}
 
 }
@@ -17,6 +18,9 @@
 	> .column {
 		margin: 0 auto;
 	}
+	//> .row.column, >.grid.column {
+	//	margin: $emSize * -1;
+	//}
 }
 
 .ui.grid.grid.grid.grid.grid.grid.grid {
